@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    flex: 50%;
+    max-width: 300px;
+}
+
+.title{
+    text-align: center;
+}
+
+.column:nth-child(odd) h3.description {
+    text-align: right;
+}
+
+.column:nth-child(even)  h3.description {
+    text-align: left;
+}
